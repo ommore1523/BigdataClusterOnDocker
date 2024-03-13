@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+
+<configuration>
+  <!-- ResourceManager address -->
+  <property>
+    <name>yarn.resourcemanager.hostname</name>
+    <value>0.0.0.0</value>
+  </property>
+
+  <!-- NodeManager address -->
+  <property>
+    <name>yarn.nodemanager.hostname</name>
+    <value>0.0.0.0</value>
+  </property>
+
+
+  <!-- Local directories for YARN container and log files -->
+  <property>
+    <name>yarn.nodemanager.local-dirs</name>
+    <value>/data/dn_local</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.log-dirs</name>
+    <value>/data/dn_log</value>
+  </property>
+
+  <!-- NodeManager resource memory limits -->
+  <property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>8192</value> <!-- Example: 8 GB -->
+  </property>
+  <property>
+    <name>yarn.nodemanager.resource.cpu-vcores</name>
+    <value>4</value> <!-- Example: 4 CPU cores -->
+  </property>
+
+  <!-- NodeManager Web UI port -->
+  <property>
+    <name>yarn.nodemanager.webapp.address</name>
+    <value>0.0.0.0:8123</value>
+  </property>
+
+
+  <!-- Health check configuration -->
+  <property>
+    <name>yarn.nodemanager.health-checker.script.path</name>
+    <value>/etc/hadoop/health_check_script.sh</value> <!-- Example: Path to the health check script -->
+  </property>
+  <property>
+    <name>yarn.nodemanager.health-checker.interval-ms</name>
+    <value>30000</value> <!-- Health check interval in milliseconds -->
+  </property>
+
+  <!-- ResourceManager address and port for resource tracking -->
+  <property>
+    <name>yarn.resourcemanager.address</name>
+    <value>0.0.0.0:8110</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.address</name>
+    <value>0.0.0.0:8124</value>
+  </property>
+  <property>
+    <name>yarn.resourcemanager.resource-tracker.address</name>
+    <value>0.0.0.0:8111</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.localizer.address</name>
+    <value>0.0.0.0:8125</value>
+  </property>
+  
+
+  <!-- Additional configurations as needed -->
+</configuration>

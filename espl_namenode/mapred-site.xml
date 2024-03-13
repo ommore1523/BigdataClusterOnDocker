@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+
+<configuration>
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>0.0.0.0:8102</value> <!-- Change this to your JobHistoryServer hostname and port -->
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>0.0.0.0:8103</value> <!-- Change this to your JobHistoryServer hostname and port -->
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.webapp.https.address</name>
+        <value>0.0.0.0:8104</value> <!-- Change this to your JobHistoryServer hostname and port -->
+    </property>
+
+    <property>
+        <name>mapreduce.jobhistory.intermediate-done-dir</name>
+        <value>/var/log/hadoop-mapreduce/history/done_intermediate</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.done-dir</name>
+        <value>/var/log/hadoop-mapreduce/history/done</value>
+    </property>
+
+
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>0.0.0.0</value>
+    </property>
+    <property>
+        <name>yarn.resourcemanager.address</name>
+        <value>0.0.0.0:8105</value>
+    </property>
+
+
+    <!-- Location of job history logs in HDFS -->
+    <property>
+        <name>mapreduce.jobhistory.intermediate-done-dir</name>
+        <value>/user/history/done_intermediate</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.done-dir</name>
+        <value>/user/history/done</value>
+    </property>
+
+
+</configuration>
