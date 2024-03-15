@@ -2,9 +2,16 @@
 
 ## Steps :
 
+### VVIMM
+```bash
+export `SPARK_LOCAL_HOSTNAME=192.168.100.40`
+spark-submit <your_spark_application.py> <arguments>
+```
+
+
 ## Common:
 
-- After each container up add `0.0.0.0 espl.hadoop.com` to /etc/hosts file of container 
+- After each container up add `192.168.100.180 espl.hadoop.com` to /etc/hosts file of container 
 
 #### 1. Base Image Build steps:
 
@@ -49,3 +56,9 @@
 - `./entrypoint.sh`
 
 - `http://127.0.0.1:8114/`
+
+
+
+
+
+

@@ -5,11 +5,11 @@
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://0.0.0.0:8101</value>
+        <value>hdfs://192.168.100.180:8101</value>
     </property>
     <property>
     <name>dfs.namenode.http-address</name>
-    <value>hdfs://0.0.0.0:8100</value>
+    <value>hdfs://192.168.100.180:8100</value>
     </property>
 
 </configuration>

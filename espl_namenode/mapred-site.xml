@@ -5,15 +5,15 @@
 <configuration>
     <property>
         <name>mapreduce.jobhistory.address</name>
-        <value>0.0.0.0:8102</value> <!-- Change this to your JobHistoryServer hostname and port -->
+        <value>192.168.100.180:8102</value> <!-- Change this to your JobHistoryServer hostname and port -->
     </property>
     <property>
         <name>mapreduce.jobhistory.webapp.address</name>
-        <value>0.0.0.0:8103</value> <!-- Change this to your JobHistoryServer hostname and port -->
+        <value>192.168.100.180:8103</value> <!-- Change this to your JobHistoryServer hostname and port -->
     </property>
     <property>
         <name>mapreduce.jobhistory.webapp.https.address</name>
-        <value>0.0.0.0:8104</value> <!-- Change this to your JobHistoryServer hostname and port -->
+        <value>192.168.100.180:8104</value> <!-- Change this to your JobHistoryServer hostname and port -->
     </property>
 
     <property>
@@ -28,11 +28,11 @@
 
     <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>0.0.0.0</value>
+        <value>192.168.100.180</value>
     </property>
     <property>
         <name>yarn.resourcemanager.address</name>
-        <value>0.0.0.0:8105</value>
+        <value>192.168.100.180:8105</value>
     </property>
 
 

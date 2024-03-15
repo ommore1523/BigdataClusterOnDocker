@@ -4,15 +4,15 @@
 <configuration>
     <property>
         <name>fs.default.name</name>
-        <value>hdfs://0.0.0.0:8101</value>
+        <value>hdfs://192.168.100.180:8101</value>
     </property>
     <property>
         <name>dfs.datanode.http.address</name>
-        <value>0.0.0.0:8140</value>
+        <value>192.168.100.180:8140</value>
     </property>
     <property>
         <name>dfs.datanode.address</name>
-        <value>0.0.0.0:8141</value>
+        <value>192.168.100.180:8141</value>
     </property>
     <property>
         <name>dfs.datanode.data.dir</name>
@@ -20,7 +20,7 @@
     </property>
     <property>
         <name>dfs.datanode.ipc.address</name>
-        <value>0.0.0.0:8142</value>
+        <value>192.168.100.180:8142</value>
     </property>
     <property>
         <name>dfs.client.use.datanode.hostname</name>

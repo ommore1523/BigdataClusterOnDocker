@@ -6,6 +6,10 @@ hdfs --daemon start namenode;
 yarn --daemon start resourcemanager;
 
 
+
+echo -e "192.168.100.180 espl.hadoop.com" >> /etc/hosts
+echo -e "192.168.100.40 expansive" >> /etc/hosts
+
 cd /hadoop/sbin;
 ./mr-jobhistory-daemon.sh start historyserver;
 

@@ -3,23 +3,23 @@
 <configuration>
   <property>
     <name>yarn.resourcemanager.hostname</name>
-    <value>0.0.0.0</value> <!-- Replace with the actual hostname or IP address of the ResourceManager machine -->
+    <value>192.168.100.180</value> <!-- Replace with the actual hostname or IP address of the ResourceManager machine -->
   </property>
   <property>
     <name>yarn.resourcemanager.webapp.address</name>
-    <value>0.0.0.0:8106</value>
+    <value>192.168.100.180:8106</value>
   </property>
   <property>
     <name>yarn.resourcemanager.resource-tracker.address</name>
-    <value>0.0.0.0:8107</value>
+    <value>192.168.100.180:8107</value>
   </property>
   <property>
     <name>yarn.resourcemanager.scheduler.address</name>
-    <value>0.0.0.0:8108</value>
+    <value>192.168.100.180:8108</value>
   </property>
   <property>
     <name>yarn.resourcemanager.admin.address</name>
-    <value>0.0.0.0:8109</value>
+    <value>192.168.100.180:8109</value>
   </property>
   <property>
     <name>yarn.nodemanager.aux-services</name>
@@ -47,10 +47,10 @@
   </property>
    <property>
         <name>yarn.resourcemanager.address</name>
-        <value>0.0.0.0:8110</value>
+        <value>192.168.100.180:8110</value>
     </property>
     <property>
         <name>yarn.resourcemanager.resource-tracker.address</name>
-        <value>0.0.0.0:8111</value>
+        <value>192.168.100.180:8111</value>
     </property>
 </configuration>

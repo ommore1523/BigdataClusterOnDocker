@@ -18,13 +18,13 @@
   <!-- ResourceManager address -->
   <property>
     <name>yarn.resourcemanager.hostname</name>
-    <value>0.0.0.0</value>
+    <value>192.168.100.180</value>
   </property>
 
   <!-- NodeManager address -->
   <property>
     <name>yarn.nodemanager.hostname</name>
-    <value>0.0.0.0</value>
+    <value>192.168.100.180</value>
   </property>
 
 
@@ -51,7 +51,7 @@
   <!-- NodeManager Web UI port -->
   <property>
     <name>yarn.nodemanager.webapp.address</name>
-    <value>0.0.0.0:8143</value>
+    <value>192.168.100.180:8143</value>
   </property>
 
 
@@ -68,19 +68,19 @@
   <!-- ResourceManager address and port for resource tracking -->
   <property>
     <name>yarn.resourcemanager.address</name>
-    <value>0.0.0.0:8110</value>
+    <value>192.168.100.180:8110</value>
   </property>
   <property>
     <name>yarn.nodemanager.address</name>
-    <value>0.0.0.0:8144</value>
+    <value>192.168.100.180:8144</value>
   </property>
   <property>
     <name>yarn.resourcemanager.resource-tracker.address</name>
-    <value>0.0.0.0:8111</value>
+    <value>192.168.100.180:8111</value>
   </property>
   <property>
     <name>yarn.nodemanager.localizer.address</name>
-    <value>0.0.0.0:8145</value>
+    <value>192.168.100.180:8145</value>
   </property>
   
 
